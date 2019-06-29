@@ -1,0 +1,47 @@
+//
+//  LYHPrefixHeader.pch
+//  ThreeSandOcean
+//
+//  Created by 龙泽桢 on 2019/5/11.
+//  Copyright © 2019 tools. All rights reserved.
+//
+
+#ifndef LYHPrefixHeader_pch
+#define LYHPrefixHeader_pch
+
+
+
+/*
+ 将OC的头文件与C语言的源文件进行有效的隔离。也就是说，你在OC头文件前后加了这个条件编译之后，编译器便不再将OC的头文件拷贝到C语言的源文件中，它只会把OC的头文件拷贝到OC的源文件中
+ */
+#ifdef __OBJC__
+
+#import "MYTools.h"
+#import "NSString+category.h"
+#import "NSDate+category.h"
+#import "UIImage+category.h"
+#import "UIButton+category.h"
+#import "WholeSituation.h"
+#import <Masonry/Masonry.h>
+#import "AppDelegate.h"
+#import "BaseNavViewController.h"
+#import "AFNetworking.h"
+#import "BaseNetwork.h"
+#import "HttpUrlHeader.h"
+#import "UIView+Toast.h"
+#import "UIView+category.h"
+#import "BaseWKWebView.h"
+#import "HtmlHeader.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "ETHUserBaseInfo.h"
+#import <SDWebImage/SDImageCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "RDLocalizableController.h"
+#endif
+
+
+
+
+#endif /* LYHPrefixHeader_pch */

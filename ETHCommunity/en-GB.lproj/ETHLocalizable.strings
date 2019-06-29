@@ -1,0 +1,21 @@
+/* 
+  ETHLocalizable.strings
+  ETHCommunity
+
+  Created by 龙泽桢 on 2019/6/21.
+  Copyright © 2019 tools. All rights reserved.
+*/
+"注册" = "Sign-up";
+"会员账号" = "会员账号";
+"button_topclubs_text" = "TOP CLUBS";
+"table_legend" = "Table legend";
+"club_participated" = "Participated";
+"high_card" = "High card";
+"notice_requests" = "Requests";
+"alliance_played_players" = "Tables played/Players:";
+"circle_created" = "Circle created: 0/1";
+"circle_manager" = "Manager:";
+"alliance_manager" = "Manager: %@";
+"alliance_table_played" = "Tables played/Players: %@/%@";
+"alliance_established" = "Established: %@";
+"status_label" = "Status label";
